@@ -1,17 +1,17 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, Box } from "lucide-react";
 import { Tool, categories } from "@/data/tools";
-import * as Icons from "lucide-react";
+import * as SimpleIcons from "react-icons/si";
 
 interface ToolCardProps {
   tool: Tool;
 }
 
 export function ToolCard({ tool }: ToolCardProps) {
-  // Dynamically get icon component
-  const IconComponent = (Icons as any)[tool.icon] || Icons.Box;
+  // Dynamically get icon component from react-icons/si
+  const IconComponent = (SimpleIcons as any)[tool.icon] || Box;
 
   return (
     <Card className="card-hover bg-card border border-border transition-all duration-200 group">
