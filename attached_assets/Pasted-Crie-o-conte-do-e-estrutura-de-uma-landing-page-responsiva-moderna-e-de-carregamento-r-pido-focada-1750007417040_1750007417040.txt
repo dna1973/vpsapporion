@@ -1,0 +1,371 @@
+Crie o conteúdo e estrutura de uma landing page responsiva, moderna e de carregamento rápido, focada em exibir um painel de acesso centralizado para várias web apps hospedadas em subdomínios de um VPS com o domínio principal “estdudioai.site”. A página deve ser minimalista e visualmente atraente, com suporte aos modos claro e escuro, conter apenas um título no topo e "cargas flutuantes" (cards/ícones interativos) representando cada ferramenta disponível, com link direto para o subdomínio correspondente.
+
+Requisitos:
+Visual limpo, moderno e intuitivo, compatível com temas claro e escuro.
+Apenas um título central no topo, como “Painel de Ferramentas - Daniel VPS”.
+Cada ferramenta deve estar representada por um card ou ícone flutuante, com breve resumo (1-2 linhas), nome, e link para o subdomínio correspondente (use o nome sem espaços e tudo em minúsculo, ex: traefik.estdudioai.site).
+Otimize para UX: responsivo, fácil navegação, visual minimalista.
+Não inclua áreas de cadastro/login ou seções extras — foco apenas no grid de ferramentas.
+Disponibilize exemplos de palavras-chave para SEO focadas em painel, webapps, produtividade, automação, e nomes das ferramentas.
+Gere os resumos abaixo em português, podendo adaptar a cada ferramenta.
+Lista de Ferramentas com Resumos e Subdomínios:
+(Os resumos abaixo são sugestões; personalize conforme seu uso real!)
+
+Traefik
+
+Proxy reverso moderno e gerenciador de tráfego dinâmico.
+
+traefik.estdudioai.site
+
+Portainer
+
+Gerenciamento simplificado de containers Docker e Kubernetes.
+
+portainer.estdudioai.site
+
+Chatwoot
+
+Plataforma de atendimento ao cliente e chat multicanal.
+
+chatwoot.estdudioai.site
+
+Evolution API
+
+Integração de dados e automação de fluxos via API moderna.
+
+evolutionapi.estdudioai.site
+
+MinIO
+
+Armazenamento de objetos compatível com S3 para dados escaláveis.
+
+minio.estdudioai.site
+
+Typebot
+Construtor de bots interativos para captação de leads e automação.
+
+typebot.estdudioai.site
+
+N8N
+Automação de processos sem código via fluxos visuais.
+
+n8n.estdudioai.site
+
+Flowise
+
+Criação visual de fluxos inteligentes para IA e automação.
+
+flowise.estdudioai.site
+
+PgAdmin 4
+
+Administração completa de bancos PostgreSQL via interface web.
+
+pgadmin4.estdudioai.site
+
+Nocobase
+
+*Banco de dados flexível estilo Airtable para gestão de dados.*  
+nocobase.estdudioai.site
+
+Botpress
+*Framework para criação e gestão de chatbots avançados.*  
+botpress.estdudioai.site
+
+Wordpress
+
+*Gestão de blogs, sites e portais com CMS líder de mercado.*  
+wordpress.estdudioai.site
+
+Baserow
+*Banco de dados colaborativo low-code.*  
+baserow.estdudioai.site
+
+MongoDB
+
+*Banco de dados NoSQL escalável e flexível.*  
+mongodb.estdudioai.site
+
+RabbitMQ
+
+*Mensageria robusta para integração de aplicações.*  
+rabbitmq.estdudioai.site
+
+Uptime Kuma
+*Monitoramento de uptime e status de serviços online.*  
+uptimekuma.estdudioai.site
+
+Cal.com
+*Agendamento inteligente de reuniões e compromissos.*  
+calcom.estdudioai.site
+
+Mautic
+*Automação de marketing e campanhas digitais.*  
+mautic.estdudioai.site
+
+Appsmith
+*Plataforma para construção rápida de apps internos.*  
+appsmith.estdudioai.site
+
+Qdrant
+*Banco de dados vetorial para IA e busca semântica.*  
+qdrant.estdudioai.site
+
+Woofed CRM
+*Gestão completa de relacionamento com clientes.*  
+woofedcrm.estdudioai.site
+
+Formbricks
+
+*Criação avançada de formulários e pesquisas de opinião.*  
+formbricks.estdudioai.site
+
+NocoDB
+
+*Transforme qualquer banco SQL em um banco colaborativo visual.*  
+nocodb.estdudioai.site
+
+Langfuse
+
+*Observabilidade para aplicações de IA generativa.*  
+langfuse.estdudioai.site
+
+Metabase
+
+*Dashboards de dados e BI para tomada de decisão.*  
+metabase.estdudioai.site
+
+Odoo
+
+*Gestão empresarial completa unificada em um ERP moderno.*  
+odoo.estdudioai.site
+
+Chatwoot Mega
+*Versão avançada do Chatwoot para suporte em larga escala.*  
+chatwootmega.estdudioai.site
+
+Uno API
+*APIs unificadas para integração entre diferentes sistemas.*  
+unoapi.estdudioai.site
+
+N8N + Nodes Quepasa
+
+*Automação poderosa unida a integrações WhatsApp (Quepasa).*  
+n8nnodesquepasa.estdudioai.site
+
+Quepasa API
+
+*API para operações WhatsApp automatizadas.*  
+quepasaapi.estdudioai.site
+
+Docuseal
+*Assinatura digital e validação de documentos online.*  
+docuseal.estdudioai.site
+
+Grafana
+
+*Monitoramento e visualização de métricas em tempo real.*  
+grafana.estdudioai.site
+
+Prometheus
+
+*Monitoramento avançado e armazenamento de séries temporais.*  
+prometheus.estdudioai.site
+
+cAdvisor
+
+*Análise de desempenho de containers em tempo real.*  
+cadvisor.estdudioai.site
+
+Dify AI
+*Plataforma para construção e execução de apps de IA generativa.*  
+difyai.estdudioai.site
+
+Ollama
+*Execução local de modelos de IA com interface simples.*  
+ollama.estdudioai.site
+
+Affine
+
+*Organização de ideias, documentos e projetos de forma visual.*  
+affine.estdudioai.site
+
+Directus
+*Gerenciamento de conteúdo headless e APIs personalizadas.*  
+directus.estdudioai.site
+
+VaultWarden
+*Gerenciamento seguro de senhas e credenciais.*  
+vaultwarden.estdudioai.site
+
+NextCloud
+*Armazenamento e colaboração em nuvem privada.*  
+nextcloud.estdudioai.site
+
+Strapi
+
+*CMS headless open-source para APIs flexíveis.*  
+strapi.estdudioai.site
+
+PhpMyAdmin
+
+*Administração web de bancos MySQL/MariaDB.*  
+phpmyadmin.estdudioai.site
+
+Supabase
+*Backend instantâneo para apps modernos com Postgres.*  
+supabase.estdudioai.site
+
+Ntfy
+
+*Envio de notificações simples e seguras.*  
+ntfy.estdudioai.site
+
+LowCoder
+
+*Automação e desenvolvimento low-code para fluxos operacionais.*  
+lowcoder.estdudioai.site
+
+LangFlow
+*Desenho visual e orquestração de fluxos em IA generativa.*  
+langflow.estdudioai.site
+
+OpenProject
+*Gestão colaborativa de projetos em equipe.*  
+openproject.estdudioai.site
+
+ZEP
+*Gerenciamento automatizado de equipes e fluxos de trabalho.*  
+zep.estdudioai.site
+
+HumHub
+*Rede social privada para colaborações internas.*  
+humhub.estdudioai.site
+
+Yourls
+*Encurtador de URLs personalizado e privado.*  
+yourls.estdudioai.site
+
+TwentyCRM
+*CRM simples para controle de leads e oportunidades.*  
+twentycrm.estdudioai.site
+
+Mattermost
+*Comunicação e chat corporativo de código aberto.*  
+mattermost.estdudioai.site
+
+Outline
+*Wiki colaborativo para documentação interna.*  
+outline.estdudioai.site
+
+Focalboard
+*Quadros de tarefas estilo Kanban para equipes ágeis.*  
+focalboard.estdudioai.site
+
+GLPI
+
+*Gestão de ativos de TI e helpdesk.*  
+glpi.estdudioai.site
+
+Anything LLM
+*Plataforma para integração e experimentação com LLMs.*  
+anythingllm.estdudioai.site
+
+Excalidraw
+
+*Quadro branco colaborativo para desenhos e wireframes.*  
+excalidraw.estdudioai.site
+
+Easy!Appointments
+
+*Agendamento simples de compromissos e consultas.*  
+easyappointments.estdudioai.site
+
+Documeso
+
+*Gestão de documentos eletrônicos.*  
+documeso.estdudioai.site
+
+Moodle
+*Ambiente virtual de aprendizagem para cursos online.*  
+moodle.estdudioai.site
+
+ToolJet
+*Plataforma low-code para criação de apps internos.*  
+tooljet.estdudioai.site
+
+Stirling PDF
+
+*Ferramentas online para manipulação de PDFs.*  
+stirlingpdf.estdudioai.site
+
+ClickHouse
+
+*Banco de dados analítico columnar de alta performance.*  
+clickhouse.estdudioai.site
+
+RedisInsight
+
+*Interface gráfica para bancos de dados Redis.*  
+redisinsight.estdudioai.site
+
+Traccar
+
+*Rastreamento em tempo real de dispositivos e veículos.*  
+traccar.estdudioai.site
+
+Firecrawl
+*Rastreamento e análise automatizada de sites e dados online.*  
+firecrawl.estdudioai.site
+
+Wuzapi
+*Integração fácil de WhatsApp para negócios.*  
+wuzapi.estdudioai.site
+
+krayin CRM
+
+*CRM flexível para gestão de clientes e vendas.*  
+krayincrm.estdudioai.site
+
+Planka WppConnect
+*Automação WhatsApp para times e fluxos personalizados.*  
+plankawppconnect.estdudioai.site
+
+Browserless
+*Automação de navegação em browsers headless.*  
+browserless.estdudioai.site
+
+Frappe
+*Framework para criação rápida de apps web personalizados.*  
+frappe.estdudioai.site
+
+Bolt
+
+*Framework rápido e flexível para desenvolvimento web.*  
+bolt.estdudioai.site
+
+WiseMapping
+
+*Mapas mentais colaborativos para planejamento visual.*  
+wisemapping.estdudioai.site
+
+Evo AI
+*Ferramentas de IA para automação inteligente de processos.*  
+evoai.estdudioai.site
+
+Keycloak
+*Gerenciamento de identidade e autenticação centralizada.*  
+keycloak.estdudioai.site
+
+Passbolt
+
+*Gerenciador de senhas para equipes com segurança avançada.*  
+passbolt.estdudioai.site
+
+Palavras-chave recomendadas para SEO da landing page:
+painel de ferramentas VPS Daniel
+webapps hospedadas
+automação e produtividade
+acesso rápido a ferramentas
+dashboard de webapps
+[nomes das ferramentas], ex: “painel N8N”, “dashboard Grafana”
